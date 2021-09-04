@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left bottom, right top, from(#c203c2), to(#9932cc));
+  background: linear-gradient(to right top, #c203c2, #9932cc);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  color: #75259c;
+  font-weight: 600;
+  opacity: 0.8;
+  font-size: 3rem;
+}
+
+h2,
+p {
+  color: #8d2ebd;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+h3 {
+  color: #75259c;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.4)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4));
+  border-radius: 20px;
+  z-index: 2;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.glass__circle1,
+.glass__circle2 {
+  background: white;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.glass__circle1 {
+  top: 5%;
+  left: 15%;
+}
+
+.glass__circle2 {
+  bottom: 5%;
+  right: 15%;
+}
+
+.glass__image {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: auto;
+  max-width: 3rem;
+}
+
+.glass__icons {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: auto;
+  max-width: 1.5rem;
+}
+
+.glass__sidebar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+  border-radius: 2rem;
+}
+
+.glass__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.glass__link h2 {
+  padding: 0rem 1rem;
+}
+
+.glass__mainboard {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.glass__joinpro {
+  background: -webkit-gradient(linear, left bottom, right top, from(#c203c2), to(#9932cc));
+  background: linear-gradient(to right top, #c203c2, #9932cc);
+  padding: 0.75rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.glass__joinpro img {
+  padding-left: 10px;
+}
+
+.glass__joinpro h2 {
+  color: white;
+}
+
+.glass__title input {
+  border: none;
+  border-radius: 2rem;
+  width: 50%;
+}
+
+.glass__mainboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 5rem;
+}
+
+.glass__job {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0.8)));
+  background: linear-gradient(to right, white, rgba(255, 255, 255, 0.8));
+  margin: 2rem 0rem;
+}
+
+.glass__jobinfo {
+  margin: 0rem 2rem;
+}
+
+.glass__job img {
+  padding: 5px;
+}
+/*# sourceMappingURL=styles.css.map */
